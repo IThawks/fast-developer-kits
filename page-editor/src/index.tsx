@@ -1,11 +1,21 @@
-import * as React from 'react';
+import * as React from "react";
 import * as ReactDOM from 'react-dom';
-import './index.css';
+import Hello from "./components/Hello";
 import registerServiceWorker from './registerServiceWorker';
-import Top from './Top';
 
-ReactDOM.render(
-  <Top />,
-  document.getElementById('root') as HTMLElement
-);
+
+
+
+class App  extends React.Component<any,any>{
+
+	public render() {
+		return (
+			<div>
+				<Hello />
+			</div>
+		)
+	}
+}
+
+ReactDOM.render(<App />, document.getElementById("root")as HTMLElement);
 registerServiceWorker();
