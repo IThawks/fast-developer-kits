@@ -1,0 +1,2 @@
+1：react-ts中如何设置启动端口：
+在package.json中设置：set PORT=9000 &&react-scripts-ts start
