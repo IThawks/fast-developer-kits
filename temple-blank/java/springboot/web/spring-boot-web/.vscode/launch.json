@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpringBoot04WebRestfulcrudApplication",
+            "request": "launch",
+            "mainClass": "com.itHawk.springBoot.SpringBoot04WebRestfulcrudApplication",
+            "projectName": "spring-boot-04-web-restfulcrud"
+        }
+    ]
+}
